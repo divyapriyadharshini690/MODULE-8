@@ -1,35 +1,28 @@
 # # 🔢 Hackerrank:# 🏆 Student Topper Finder
 
-This Python program helps determine the **top-performing student** based on the total marks across five subjects. It uses a dictionary to store each student’s marks and identifies the topper using simple calculations and built-in functions.
+🎯 Aim
+To Write a python program to read the marks of three subjects from the users and calculate the total and percentage for that particular student.
 
----
+🧠 Algorithm
+1. Start Input marks of three subjects: m1, m2, m3.
+2.  Compute the total marks: total = m1 + m2 + m3
+3.  Compute the percentage: percentage = (total / 300) * 100
+4. Display total and percentage.
+5. Stop
 
-## 🎯 Aim
+💻 PROGRAM:
+```python 
+m1,m2,m3=int(input()),int(input()),int(input())
 
-To maintain a dictionary of students with their marks in five subjects, calculate their **total marks**, store them in a new dictionary, and identify the **student with the highest total (topper)**.
+total=m1+m2+m3;
 
----
+percentage=(total/300)*100
 
-## 🧠 Algorithm
+print("Total marks obtained is {} and the percentage obtained is {}".format(total,percentage))
+```
+OUTPUT
+![491455837-de5aba61-cc79-432f-b95c-679e1d7db757](https://github.com/user-attachments/assets/f695040d-56f3-4a3e-bbc2-8725a4cffa2d)
 
-1. **Start** the program.
-2. Create a dictionary `student_marks`:
-   - Keys → Student names.
-   - Values → List of marks in five subjects.
-3. Initialize an empty dictionary `total_marks`.
-4. Loop through `student_marks`:
-   - Calculate the total marks using `sum()`.
-   - Store the result in `total_marks`.
-5. Use `max()` on `total_marks` to find the student with the highest total.
-6. Print:
-   - The `total_marks` dictionary.
-   - The **topper's name and score**.
-
----
-
-## 💻 PROGRAM:
-ADD CODE HERE
-
-## OUTPUT
 
 ## RESULT
+Thus  a python program to read the marks of three subjects from the users and calculate the total and percentage for that particular student the program is excuted and verified.
